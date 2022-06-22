@@ -1,0 +1,61 @@
+#LogoAP{
+  background-color: #a1b5cb;
+  width: 150px;
+
+}
+
+.Cabeza{
+  background: #a1b5cb;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 85% 15%;
+}
+
+.Redes{
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-rows: 100px;
+  gap:1em;
+}
+
+
+.Ingresar{
+  color: white;
+  background-color: #32CD32;
+  border-color: #32CD32;
+}
+
+
+.Banner{
+
+}
+
+.Fondo{
+  width: 1333px;
+  height: 350px;
+  display: grid;
+  grid-template-columns: 20%;
+}
+
+.Perfil_Ciruclar{
+  display: inline-block;
+   position: relative;
+   width: 200px;
+   height: 200px;
+   overflow: hidden;
+   border-radius: 50%;
+bottom: 160px;
+left: 45px;
+}
+
+.Perfil_Ciruclar img{
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+
+.Descripcion{
+  display: grid;
+  grid-template-columns: 15% auto;
+ gap: 10px;
+}
